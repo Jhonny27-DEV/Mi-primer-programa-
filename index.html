@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encriptador de texto</title>
+<link rel="icon" type="imge/x-icon" href="./imagen/favicon.ico">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+   <header>
+      <a href="#" rel="">
+         <img src="/imagen/Logo jhonny.jpg" alt="Logo alura" class="logo">
+      </a> 
+   </header>
+    <div class="contenedor">
+        <div class="encriptar">
+            <textarea 
+                name="texto" 
+                class="texto" 
+                id="texto" 
+                cols="30" 
+                rows="10" 
+                placeholder="Ingrese el texto aqui"
+            ></textarea>
+        </div>
+            <div class="terminos">
+               
+                <p>Solo letras minúsculas y sin acentos</p>
+                <img src="./imagen/aviso.svg" alt="imagen-aviso" class="img-aviso">
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                
+            </div> 
+        </div>
+    <div>
+        <textarea 
+        class="mensaje" 
+        cols="20" rows="13" 
+        placeholder="Ingrese el texto aqui">
+    </textarea>
+        <div>
+            <h2 class="h2" id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+            <p class="p" id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyrigt">&copy; copyrigt 2024 - Encriptador de texto desarrollado por Jhonny Rosario</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
