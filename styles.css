@@ -215,7 +215,7 @@ main{
     font-size: 32px;
     border-radius: 15px;
     padding: 0.5%;
-    background-image: url(/imagen/muñeco.svg);
+    background-image: url(./muñeco.svg);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -289,7 +289,7 @@ main{
 
     .mensaje{
         display: flex;
-        background-image: url(/imagen/candado1.jpg);
+        background-image: url(./candado1.jpg);
         width: 80%;
         height: 30%;
         left: 10%;
