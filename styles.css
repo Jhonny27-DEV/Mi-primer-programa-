@@ -264,7 +264,7 @@ main{
 }
 
 /* Diseño responsivo */
-@media (max-width: 728px){
+@media (max-width: 1024px){
     .contenedor{
       display: flex;  
       flex-direction: row;
@@ -313,15 +313,15 @@ main{
         top: 50%;
     }
     .btn-copiar{
-        display: flex;
-        left: 170px;
-        top: 55px;
+        
+        left: 200px;
+        top: 90px;
         height: 25px;
         font-size: medium;
         justify-content: center;
         max-width: 100px;
-        position: absolute;
-        align-items: baseline;
+       
+        
     }
 
     .btn-encriptar,
@@ -356,5 +356,6 @@ main{
     .mensaje::placeholder{
         font-size: small;
     }
+    
 }
 
