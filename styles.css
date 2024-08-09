@@ -264,7 +264,7 @@ main{
 }
 
 /* Diseño responsivo */
-@media (max-width: 786PX){
+@media (max-width: 728px){
     .contenedor{
       display: flex;  
       flex-direction: row;
@@ -321,6 +321,7 @@ main{
         justify-content: center;
         max-width: 100px;
         position: absolute;
+        align-items: baseline;
     }
 
     .btn-encriptar,
@@ -331,7 +332,6 @@ main{
     } 
 
      .btn-encriptar:hover,
-    .btn-copiar:hover,
     .btn-desencriptar:hover{
         margin: 0.3%;
         width: 47.5%;
