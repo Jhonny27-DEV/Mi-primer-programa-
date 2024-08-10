@@ -264,7 +264,7 @@ main{
 }
 
 /* Diseño responsivo */
-@media (max-width: 786px){
+@media (max-width: 768px){
     .contenedor{
       display: flex;  
       flex-direction: row;
@@ -321,14 +321,15 @@ main{
         justify-content: center;
         max-width: 100px;
         flex-direction: column;
+        
       
        
         
     }
 
     .btn-encriptar,
-    .btn-desencriptar,
-    .btn-copiar{
+    .btn-desencriptar
+    {
         width: 48%;
         border-radius: 16px;
     } 
@@ -351,13 +352,16 @@ main{
     }
     .copyrigt{
         align-items: center;
-        left: 30px;
+        left: 28px;
         font-size: small;
     }
     .texto::placeholder,
     .mensaje::placeholder{
         font-size: small;
     }
-    
+    .logo{
+        max-width: fit-content;
+        height: 5%;
+    }
 }
 
