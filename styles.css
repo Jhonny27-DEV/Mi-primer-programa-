@@ -298,6 +298,7 @@ main{
     } 
 
     .terminos{
+        display: flex;
         width: 60%;
         left: 10%;
         top: 51%;
@@ -313,7 +314,8 @@ main{
         top: 50%;
     }
     .btn-copiar{
-        
+        position: relative;
+        display: flex;
         left: 150px;
         top: 265px;
         height: 25px;
