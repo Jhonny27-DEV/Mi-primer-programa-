@@ -264,7 +264,7 @@ main{
 }
 
 /* Diseño responsivo */
-@media (max-width: 1024px){
+@media (max-width: 786px){
     .contenedor{
       display: flex;  
       flex-direction: row;
