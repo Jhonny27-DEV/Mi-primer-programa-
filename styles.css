@@ -363,7 +363,7 @@ main{
     }
     .logo{
         max-width: fit-content;
-        height: 5%;
+        height: 100%;
     }
 }
 
