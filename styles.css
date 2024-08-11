@@ -315,14 +315,7 @@ main{
     }
     .btn-copiar{
         
-        text-align: justify;
-        left: 150px;
-        top: 265px;
-        height: 25px;
-        font-size: medium;
-        justify-content: center;
-        max-width: 100px;
-        flex-direction: column;
+    
         
     }
 
